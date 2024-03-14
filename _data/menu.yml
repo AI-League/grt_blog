@@ -1,0 +1,20 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+  - title: info
+    entries:
+      - title: about
+        url: about.html
+      - title: github repo
+        url: https://github.com/aivillage/flaws
+
+  - title: all posts
+    post_list:
+      limit: 5
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: archive.html
+
+  - title: rss
+    url: feed.xml

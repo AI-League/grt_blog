@@ -1,0 +1,28 @@
+title: Coordinated Flaw Disclosure
+author: AI Village
+email: comath@aivillage.org
+url: https://flaws.ai
+baseurl: ""
+description: > # description of the site (multiple lines allowed)
+  flaws.ai is a place for AI and security researchers to discuss how to report flaws in ML systems and coordinate the disclosure process.
+  This platform is maintained by AI Village.
+
+permalink: /:slug.html
+
+favicon: "logo.png" # name+extension of favicon (which must be put on the root folder)
+# goat_counter: "yoursitename" # put your GoatCounter name if you want to use GoatCounter analytics
+
+goat_counter: flaws-ai-aivillage
+
+theme_config:
+  appearance: "auto" # can be "light", "dark" or "auto"
+  back_home_text: ".." # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: false # show blog description in home page
+
+sass:
+  style: :compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
