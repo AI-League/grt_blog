@@ -1,10 +1,10 @@
 title: Coordinated Flaw Disclosure
 author: AI Village
 email: comath@aivillage.org
-url: https://flaws.ai
+url: https://grt.aivillage.org
 baseurl: ""
 description: > # description of the site (multiple lines allowed)
-  flaws.ai is a place for AI and security researchers to discuss how to report flaws in ML systems and coordinate the disclosure process.
+  grt.aivillage.org is a place for AI and security researchers to discuss how to report flaws in ML systems and coordinate the disclosure process.
   This platform is maintained by AI Village.
 
 permalink: /:slug.html
