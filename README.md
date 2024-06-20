@@ -1,6 +1,6 @@
 # Generative Red Team 2 Blog
 
-To add a blog post issue a PR with the markdown in `_posts`. 
+To add a blog post write a markdown document in `_posts` and issue a PR against this repo once it's done. It needs a filename `YYYY-MM-DD-NAME.md` and the following header at the top of the file: 
 
 ```markdown
 ---
