@@ -4,10 +4,12 @@
 entries:
   - title: info
     entries:
+      - title: announcement
+        url: announcement.html
       - title: about
         url: about.html
       - title: github repo
-        url: https://github.com/aivillage/flaws
+        url: https://github.com/AI-League/grt_blog
 
   - title: all posts
     post_list:
