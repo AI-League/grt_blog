@@ -3,7 +3,7 @@ layout: page
 title: AI Village Announcing Generative Red Team 2 at DEF CON 32
 author: AI Village, Sven Cattell
 date: 2024-06-10 09:00:00 +0900
-category: "generative red team"
+category: "core"
 ---
 
 [Original Post](https://aivillage.org/generative%20red%20team/generative-red-team-2/)
