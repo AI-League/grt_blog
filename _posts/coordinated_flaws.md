@@ -8,4 +8,4 @@ category: "core"
 
 # Coordinated Flaws Paper
 
-[We wrote a paper](https://arxiv.org/abs/2402.07039)
+[We wrote a paper](https://arxiv.org/abs/2402.07039) todo: summary
