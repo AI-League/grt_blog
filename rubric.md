@@ -3,7 +3,7 @@ layout: page
 title: Rubric
 ---
 
-The objective of this rubric is to provide a structured way to quickly grade responses at the event. One of the main concerns we have is being swamped and this will act as a guide to help us. Think of this as being a crude CVSS score for just this event. If we were doing this for real we'd have something more complicated that helps downstream consumers of your report to understand it's impacts. As part of the point of the GRT2 is that we're trying to figure out what that more complicated version, we're keeping it simple and oriented at you. 
+The objective of this rubric is to provide a structured way to quickly grade responses at the event. One of the main concerns we have is being swamped with submissions. This will act as a guide to help both you and us. Think of this as being a crude CVSS score for just this event. If we were doing this for real we'd have something more complicated that helps downstream consumers of your report to understand it's impacts. As part of the point of the GRT2 is that we're trying to figure out what that more complicated version, we're keeping it simple and oriented at you. 
 
 We have 3 categories for grading a report
 
