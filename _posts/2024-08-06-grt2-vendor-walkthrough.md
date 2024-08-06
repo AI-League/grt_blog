@@ -2,7 +2,7 @@
 layout: page
 title: Walkthrough for GRT2 Participants : Convincing the Vendor Panel
 author: Sean McGregor
-date: 2024-07-31 09:00:00 +0900
+date: 2024-08-06 03:00:00 +0900
 category: "opinion"
 ---
 
@@ -16,7 +16,7 @@ The purpose of this blog post is to help you understand the vendor decisions and
 
 ![A flowchart depicting a review process with a single stage vendor approval with a GRT organizer appeal body](static/images/vendor_review.png "Vendor Review Process")
 
-GRT2 has a [rubric](http://grt.aivillage.org/rubric32) governing payouts, but it can be distilled to a golden rule: **does the flaw report advance an “understanding of safety”?** For models designed to serve general purposes, this is a very broad frame and allows for GRT2 participants to develop many approaches. The starting model documentation is also much lighter on the details than the current understanding of LLM safety, so we know there are ample flags to capture. Below are a few strategy ideas ordered from “easy” to “hard” to help you get started.
+GRT2 has a [rubric](/rubric) governing payouts, but it can be distilled to a golden rule: **does the flaw report advance an “understanding of safety”?** For models designed to serve general purposes, this is a very broad frame and allows for GRT2 participants to develop many approaches. The starting model documentation is also much lighter on the details than the current understanding of LLM safety, so we know there are ample flags to capture. Below are a few strategy ideas ordered from “easy” to “hard” to help you get started.
 
 1. **Hazardous Use Case.** LLMs can do an uncountable number of things, but can they do them safely? Pick a use case (e.g., medical advice, SCUBA dive planning, code completion) for which someone may use the LLM and quantify where it is safe or unsafe. We will tell the world what to avoid (or not) as you discover it. Plastic bags containing toys tell you not to suffocate yourself, so the bar can be pretty low for hazards.
 2. **Mine an incident.** The [AI Incident Database](https://incidentdatabase.ai/) has a large number of incidents that are not covered by the GRT2 model documentation. You can find an incident and show how the LLM may make it happen again.
