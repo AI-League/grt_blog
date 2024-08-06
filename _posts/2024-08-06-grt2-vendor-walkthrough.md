@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Walkthrough for GRT2 Participants -- Convincing the Vendor Panel
+title: Strategies for GRT2 Participants
 author: Sean McGregor
 date: 2024-08-06 03:00:00 +0900
 category: "opinion"
