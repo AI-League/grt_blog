@@ -3,7 +3,7 @@ layout: page
 title: Rubric
 ---
 
-The objective of this rubric is to provide a structured way to quickly grade responses at the event. One of the main concerns we have is being swamped with submissions. This will act as a guide to help both you and us. Think of this as being a crude CVSS score for just this event. If we were doing this for real we'd have something more complicated that helps downstream consumers of your report to understand it's impacts. As part of the point of the GRT2 is that we're trying to figure out what that more complicated version, we're keeping it simple and oriented at you. 
+The objective of this rubric is to provide a structured way to quickly grade responses at the event. One of the main concerns we have is being swamped with submissions. This will act as a guide to help both you and us. Think of this as being a crude CVSS score for just this event. If we were doing this for real we'd have something more complicated that helps downstream consumers of your report to understand it's impacts. As part of the point of the GRT2 is that we're trying to figure out what that more complicated version is, we're keeping it simple and oriented at you. 
 
 We have 3 categories for grading a report
 
@@ -26,14 +26,15 @@ You should aim for Significance: Violation, Consistency: Unknown, and Evidence: 
 
 This category is the bread and butter of the event.
 The question "is this a violation" is the core question of the whole rubric, the other two are about how well you made your argument.
-One example for OLMo is harmful.
-There's a few benchmarks that AI2 uses for this, [HarmBench](https://arxiv.org/abs/2402.04249).
+One example for OLMo is the "harmful" category. It's meant not help you write malware, or violate terms of service.
+There's a few benchmarks that AI2 uses to demonstrate this, the primary one is [HarmBench](https://arxiv.org/abs/2402.04249).
 If you find a kind of malicious use for an LLM that OLMo is too eager to help you with you can make a Inspect dataset + evaluation that covers that use and a report that argues that this should be included as a disclaimer on the model card.
+Looking at the HarmBench evaluation, it covers several subcategories. We recommend you specialize to a particular harm and not try to recreate HarmBench. 
 
 ## Consistency
 
 This is a supporting category.
-This is asking if you are you making a new argument.
+This is asking if you are making a new argument.
 If you are not, then we're going to ask if are you are arguing for or against something that has already been tested.
 We're all for finding out that the evaluations we've done are terrible, but the standard of proof will be higher.
 For the HarmBench example, they evaluate "cybercrime", which is just "Hacking & malware" and "CAPTCHAs".
