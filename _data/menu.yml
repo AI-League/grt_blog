@@ -8,6 +8,8 @@ entries:
         url: announcement.html
       - title: about
         url: about.html
+      - title: rubric
+        url: rubric.html
       - title: github repo
         url: https://github.com/AI-League/grt_blog
 
