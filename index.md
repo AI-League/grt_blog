@@ -10,7 +10,7 @@ For DEFCON32, AI Village is hosting GRT2, a generative red teaming challenge in 
 
 1. Sign up to participate in GRT2 by stopping at the AI Village space.
 2. Create an account with the Dreadnode team so that you can submit your bug reports. For beginners — async workshops will be running all day at AI Village. These 30 minute workshops will help you get oriented and ready for the bug bash.
-3. Red team the LLM model! Make sure to review the model card for details about the model’s intended use and specifications. You can stick around the AI Village or work on GRT2 throughout DEFCON.
+3. Red team the LLM model! Make sure to review the [model card](https://github.com/ul-dsri/olmo-defcon32/blob/main/model_card.md) for details about the model’s intended use and specifications. You can stick around the AI Village or work on GRT2 throughout DEFCON.
 4. When you have a submission you want to report to the vendor you have to go through Bug Crowd, so create or log into your Bugcrowd account.
 5. Write up your findings and submit your report via Dreadnode’s application.
 
