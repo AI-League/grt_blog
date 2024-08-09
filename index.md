@@ -11,9 +11,12 @@ For DEFCON32, AI Village is hosting GRT2, a generative red teaming challenge in 
 1. Sign up to participate in GRT2 by stopping at the AI Village space.
 2. Create an account with the Dreadnode team so that you can submit your bug reports. For beginners — async workshops will be running all day at AI Village. These 30 minute workshops will help you get oriented and ready for the bug bash.
 3. Red team the LLM model! Make sure to review the model card for details about the model’s intended use and specifications. You can stick around the AI Village or work on GRT2 throughout DEFCON.
-4. Write up your findings and submit your report via Dreadnode’s application.
+4. When you have a submission you want to report to the vendor you have to go through Bug Crowd, so create or log into your Bugcrowd account.
+5. Write up your findings and submit your report via Dreadnode’s application.
 
 If you're not at DEFCON, you can do the workshop AISI created remotely. It's on github [here](https://github.com/UKGovernmentBEIS/defcon_grt_notebook/blob/main/quickstart.ipynb), and Here's a [pre-loaded](https://colab.research.google.com/github/UKGovernmentBEIS/defcon_grt_notebook/blob/main/quickstart.ipynb) colab notebook.
+
+**Strong submissions make specific claims about things in the model card that are incorrect, incomplete, or missing. An argument of the form, "The model card says something happens X% of the time, but this shows worse performance of Y%" is best. An argument of the form, "the model card says this, but my submission shows something else," is good.**
 
 # Judging and Rubric
 
