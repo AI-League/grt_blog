@@ -16,9 +16,9 @@ $500 if you meet the bar of showing where we need to change the model card. We r
 
 This tier is described as:
 
-> This receives a $50 bounty since you found a valid prompt that produces model violations at percentages different from the model card. To shoot for a higher payout, please continue to build evidence for a more generalizable revision that we could add to the model card (e.g. more diverse prompts to build out a clearly defined category).
+> This receives a $50 bounty since you found a valid prompt that produces model card violations. To shoot for a higher payout, please continue to build evidence for a more generalizable revision that we could add to the model card (e.g. more diverse prompts to build out a clearly defined category).
 
-We re-adjudicated the complete collection of reports and paid out 10+ bounties, but most of these were related to jailbreaks. Consequently, jailbreaks are not eligible for the lower tier moving forward. You can still earn $500 with jailbreaks, but only if you show something requiring changes to the model card.
+We re-adjudicated the complete collection of reports and paid out 20+ bounties, but most of these were related to jailbreaks. Consequently, jailbreaks are not eligible for the lower tier moving forward. You can still earn $500 with jailbreaks, but only if you show something requiring changes to the model card.
 
 # Reasons for the Change
 
