@@ -15,7 +15,7 @@ For DEFCON32, AI Village is hosting GRT2, a generative AI red teaming challenge 
 5. Write up your findings and submit your report via Dreadnode’s application.
 6. Check bug crowd for the status of your submission.
 
-If you're not at DEFCON, you can do the workshop AISI created remotely. It's on github [here](https://github.com/UKGovernmentBEIS/defcon_grt_notebook/blob/main/quickstart.ipynb). If you have a google account, here's a [pre-loaded](https://colab.research.google.com/github/UKGovernmentBEIS/defcon_grt_notebook/blob/main/quickstart.ipynb) colab notebook. The chromebooks
+If you're not at DEFCON, you can do the workshop AISI created remotely. It's on github [here](https://github.com/UKGovernmentBEIS/defcon_grt_notebook/blob/main/quickstart.ipynb). If you have a google account, here's a [pre-loaded](https://colab.research.google.com/github/UKGovernmentBEIS/defcon_grt_notebook/blob/main/quickstart.ipynb) colab notebook. If you are on a network-blocked computer you can view the notebook materials [here](https://github.com/dreadnode/defcon_grt_notebook) and clone the entire repo to run the notebook.
 
 **Strong submissions make specific claims about things in the model card that are incorrect, incomplete, or missing. An argument of the form, "The model card says something happens X% of the time, but this shows worse performance of Y%" is best. An argument of the form, "the model card says this, but my submission shows something else," is good.**
 
