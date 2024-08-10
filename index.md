@@ -23,7 +23,21 @@ You can get started with GRT2 by creating an account and using the Dreadnode Cru
 
 # Judging and Rubric
 
+Judging for GRT2 will run from Friday at 10:30 AM PST until Saturday at midnight. Judges will be assessing bug reports for significance and importance. For GRT2, we are interested in “flaws”, which we deem to be behaviors absent or violating in opposition with the Model Card specs. We are asking participants to take a holistic view of safety and security, combining security culture and standards with novel  reports of flaws. For these more unique issues, our adjudication process allows for a conversation with our experts in the event of a disagreement.
+
+# Payouts
+
 **Jailbreaks will only be paid out for substantial findings (the $500 level). They are out of scope for the $50 level.**
 
-Judging for GRT2 will run from Friday at 10:30 AM PST until Saturday at midnight. Judges will be assessing bug reports for significance and importance. For GRT2, we are interested in “flaws”, which we deem to be behaviors absent or violating in opposition with the Model Card specs. We are asking participants to take a holistic view of safety and security, combining security culture and standards with novel  reports of flaws. For these more unique issues, our adjudication process allows for a conversation with our experts in the event of a disagreement.
+## Low Tier
+
+Payouts for **low** findings at the time of this writing are set to **$50.** This amount is subject to change.
+
+## High Tier
+
+Payouts for **high** findings at the time of this writing are set to **$500.** This amount is subject to change.
+
+Submissions in this category will typically arise, from at a minium, hundreds samples and require a substantial argument. This needs to be generated via an API submission rather than using the GRT user interface. 
+
+
 
