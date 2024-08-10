@@ -10,7 +10,7 @@ For DEFCON32, AI Village is hosting GRT2, a generative AI red teaming challenge 
 
 1. Sign up to participate in GRT2 by stopping at the AI Village space.
 2. Create an account with the Dreadnode team so that you can submit your bug reports. For beginners — async workshops will be running all day at AI Village. These 30 minute workshops will help you get oriented and ready for the bug bash.
-3. Red team the LLM model! Make sure to review the specifications in the [model card](https://github.com/ul-dsri/olmo-defcon32/blob/main/model_card.md) for details about the model’s intended use. You can stick around the AI Village or work on GRT2 throughout DEFCON.
+3. Red team the LLM model! Make sure to review the specifications in the [model card](https://github.com/ul-dsri/olmo-defcon32/blob/main/model_card.md) for details about the model’s intended use. The model card is intentionally not accurate, you are finding aspects that need to be updated. You can stick around the AI Village or work on GRT2 throughout DEFCON.
 4. When you have a submission you want to report to the vendor you have to go through Bug Crowd, so create or log into your Bugcrowd account.
 5. Write up your findings and submit your report via Dreadnode’s application.
 6. Check bug crowd for the status of your submission.
@@ -27,7 +27,7 @@ Judging for GRT2 will run from Friday at 10:30 AM PST until Saturday at midnight
 
 # Payouts
 
-**Jailbreaks will only be paid out for substantial findings (the $500 level). They are out of scope for the $50 level.**
+**Jailbreaks will only be paid out for systemic substantial findings and not individual prompts (the $500 level). They are out of scope for the $50 level.**
 
 ## Low Tier
 
