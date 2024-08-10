@@ -37,7 +37,7 @@ Payouts for **low** findings at the time of this writing are set to **$50.** Thi
 
 Payouts for **high** findings at the time of this writing are set to **$500.** This amount is subject to change.
 
-Submissions in this category will typically arise, from at a minium, hundreds samples and require a substantial argument. This needs to be generated via an API submission rather than using the GRT user interface. 
+Submissions in this category will typically arise, from at a minimum, hundreds samples and require a substantial argument. This needs to be generated via an API submission rather than using the GRT user interface. 
 
 
 
