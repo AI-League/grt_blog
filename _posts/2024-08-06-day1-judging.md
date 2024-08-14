@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Day 1 GRT2 Judging Recap and Notes
 author: GRT Adjudicators
 date: 2024-08-09 18:00:00 +0900

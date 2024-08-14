@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Coordinated Flaws Enumeration
 author: Sven Cattell
 date: 2024-06-10 09:00:00 +0900
