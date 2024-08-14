@@ -3,7 +3,7 @@ layout: post
 title: Strategies for GRT2 Participants
 author: Sean McGregor
 date: 2024-08-06 03:00:00 +0900
-category: "opinion"
+category: "core"
 ---
 
 > On August 8th through 11th, tens of thousands of hackers will converge on Las Vegas for DEF CON 32. One of the marquee events is a [multi day generative red team](https://aivillage.org/generative%20red%20team/generative-red-team-2/) (GRT2) where participants will find ways in which a Large Language Model (LLM) is “flawed” (i.e., it presents ["...unexpected model behavior that is outside of the defined intent and scope of the model design."](https://arxiv.org/abs/2402.07039).

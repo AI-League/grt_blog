@@ -3,7 +3,7 @@ layout: post
 title: Day 1 GRT2 Judging Recap and Notes
 author: GRT Adjudicators
 date: 2024-08-09 18:00:00 +0900
-category: "opinion"
+category: "core"
 ---
 
 After a half day of judging flaw reports as part of Generative Red Team 2, we learned some things. In response, we made a few changes to the bounties.

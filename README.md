@@ -4,7 +4,7 @@ To add a blog post write a markdown document in `_posts` and issue a PR against 
 
 ```markdown
 ---
-layout: page
+layout: post
 title: AI Village Announcing Generative Red Team 2 at DEF CON 32
 author: AI Village, Sven Cattell
 date: 2024-06-10 09:00:00 +0900
