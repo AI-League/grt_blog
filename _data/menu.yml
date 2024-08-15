@@ -15,6 +15,7 @@ entries:
 
   - title: Participant Feedback
     post_list:
+      category: participant
       limit: 5
       show_more: true
       show_more_text: What participants said
