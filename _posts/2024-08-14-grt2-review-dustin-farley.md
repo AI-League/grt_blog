@@ -3,7 +3,7 @@ layout: page
 title: Generative Red Team 2 Review
 author: Dustin Farley
 date: 2024-08-14 18:00:00 -0800
-category: "opinion"
+category: "participant"
 ---
 
 ## Pre-DEFCON

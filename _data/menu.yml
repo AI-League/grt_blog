@@ -13,6 +13,13 @@ entries:
       - title: github repo
         url: https://github.com/AI-League/grt_blog
 
+  - title: Participant Feedback
+    post_list:
+      limit: 5
+      show_more: true
+      show_more_text: What participants said
+      show_more_url: participant.html
+
   - title: all posts
     post_list:
       limit: 5
