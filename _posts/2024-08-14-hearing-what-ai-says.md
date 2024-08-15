@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Hearing what the AI says
 author: id01
 date: 2024-08-14 18:00:00 -0800
