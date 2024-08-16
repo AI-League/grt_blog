@@ -12,7 +12,14 @@ category: "core"
 ---
 ```
 
-We'll add a google form submission once we're up and running.
+The category should be one of:
+
+1. `core` reserved for core documents like rubric
+2. `participant` For participants! If you competed we want to hear from you as a participant.
+3. `opinion` for opinions and ideas about disclosure, evaluations, or other aspects of the GRT.
+4. `creator` Feedback from creators who helped organize the event.
+
+There's a google form [here](https://docs.google.com/forms/d/e/1FAIpQLSeC-n23Wi8egI9phXCGHKDrKorcq7LmVrzAPlCxYRWj_ajiWw/viewform?usp=sf_link) if you want to fill that out instead of forking this repo and making a PR.
 
 # Theme
 
