@@ -3,7 +3,7 @@ layout: post
 title: A series of firsts!
 author: Daniel Furnivall
 date: 2024-08-16 12:00:00 +0000
-category: "core"
+category: "participant"
 ---
 
 This was my first ever DEFCON, but I've been actively following the community for more than 10 years, across multiple careers. I live in Scotland so it's always felt like a huge undertaking to make my way over to Vegas. This year, however, the stars aligned and I was able to make the trip with a couple of security-adjacent buddies I've known for almost 20 years via IRC. 
@@ -20,7 +20,7 @@ Although there were a lot of early technical issues, the goons and village volun
 
 After I was all set up, I set to work bug hunting. I somewhat misunderstood what exactly qualified for a bug bounty throughout the event - I focused heavily on a universal jailbreak as opposed to finding specific areas where the model card was violated without actively subverting the intended behaviour. In hindsight, I probably should have spent more time on the latter as there's probably a lot of low hanging fruit there.
 
-I had a fairly good idea of a potential pathway to success thanks to my exposure to the work of Andriushchenko et al (https://arxiv.org/abs/2404.02151). I've previously used some of their methods to jailbreak Anthropic's Claude, GPT4o and other models.  Using a variant of this exploit, I set to work looking to see what I could break. I was immediately drawn to the 'malicious uses' track within the challenge (what can I say? I love mischief!). I was able to get a fairly high degree of model divergence after a bit of polishing, and after showing the (very helpful) Brad, was encouraged to create a submission for a bug bounty. 
+I had a fairly good idea of a potential pathway to success thanks to my exposure to the work of [Andriushchenko et al](https://arxiv.org/abs/2404.02151). I've previously used some of their methods to jailbreak Anthropic's Claude, GPT4o and other models.  Using a variant of this exploit, I set to work looking to see what I could break. I was immediately drawn to the 'malicious uses' track within the challenge (what can I say? I love mischief!). I was able to get a fairly high degree of model divergence after a bit of polishing, and after showing the (very helpful) Brad, was encouraged to create a submission for a bug bounty. 
 
 This was the first time I'd ever submitted an attempt at a bug bounty and it was a somewhat daunting experience! My initial submission was very simplistic and I got some great feedback encouraging me to use more quantitive evidence to demonstrate that I have something that tangibly distorts intended behaviour in a systematic fashion.
 
