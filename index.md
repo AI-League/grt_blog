@@ -2,42 +2,21 @@
 layout: home
 ---
 
-# Event Brief
+# GRT 3
 
-For DEFCON32, AI Village is hosting GRT2, a generative AI red teaming challenge in the form of a bug bash. We are asking participants to evaluate a machine learning model, identify vulnerabilities and flaws, and provide an explanation with evidence to support the replicability and significance of their findings. Participants will submit flaw reports, which will be assessed by a judging panel and bounties will be paid out throughout the event. We want people to test the structure of red teaming itself so that we can iterate and improve upon red teaming AI processes.
+Unfortunately AI Village did not make it to run GRT3 this year at DEFCON. We do not have sufficient networking to run this event at DEFCON. 
 
-# How to Participate
+We will run it online in about a month with partners. Please signup [here](https://auth.aivillage.org/login) to recieve an email with more information.
 
-1. Sign up to participate in GRT2 by stopping at the AI Village space.
-2. Create an account with the Dreadnode team so that you can submit your bug reports. For beginners - the Dreadnode team is available for drop-in help throughout the day.
-3. Red team the LLM model! Make sure to review the specifications in the [model card](https://github.com/ul-dsri/olmo-defcon32/blob/main/model_card.md) for details about the model’s intended use. The model card is intentionally not accurate, you are finding aspects that need to be updated. You can stick around the AI Village or work on GRT2 throughout DEFCON.
-4. When you have a submission you want to report to the vendor you have to go through Bug Crowd, so create or log into your Bugcrowd account.
-5. Write up your findings and submit your report via Dreadnode’s application.
-6. Check bug crowd for the status of your submission.
+## Philosophy
 
-If you're not at DEFCON, you can do the workshop AISI created remotely. It's on github [here](https://github.com/UKGovernmentBEIS/defcon_grt_notebook/blob/main/quickstart.ipynb). If you have a google account, here's a [pre-loaded](https://colab.research.google.com/github/UKGovernmentBEIS/defcon_grt_notebook/blob/main/quickstart.ipynb) colab notebook. If you are on a network-blocked computer you can view the notebook materials [here](https://github.com/dreadnode/defcon_grt_notebook) and clone the entire repo to run the notebook.
+Model reporting needs to be about learning more about the models. Not flaws, not vulnerabilities, not weaknesses. Those are useful bits of information, but the process of disclosure works better when viewed as an aspect of applying scientific method to these black boxes. This is how things used to be, before the explosion of LLMs brought thousands of AI experts to the yard. However, with the extra capabilities these models have, we need to work holistically, including useful behaviors like math and tool use and not just focus on the mistakes. What we used to do was write papers about an interesting aspect of the model and post them to arXiv, not throw prompt injections at a model until it broke and call it a day. Aside from just running stock evaluations, this is what “AI Red Teaming” largely became. The hype for this type of “AI red teaming” in policy circles is dying down because it’s largely unproductive as is. The older academic publishing meant we used to learn about the models when we “red teamed” them. The incentive was interesting findings, not pwns. We need to go back to that. 
 
-**Strong submissions make specific claims about things in the model card that are incorrect, incomplete, or missing. An argument of the form, "The model card says something happens X% of the time, but this shows worse performance of Y%" is best. An argument of the form, "the model card says this, but my submission shows something else," is good.**
+What I’m proposing is a process for learning about models and is as much about a cultural shift as a system for probing models. This is an attempt to take the best ideas from security and data science and combine them together to more effectively understand the strengths and weaknesses of AI models. We’re bringing together the academic DNA of machine learning with the hard fought lessons from security:
+Make things easy with automation: Software Bill Of Materials took off after we automated the process. The idea was good, but making it easy unlocked it.
+Triage is the hardest aspect of Disclosure: Even in far less subjective traditional security managing figuring out what to do with submissions is hard.
+Scoping is important: Specialized knowledge is often required for determining if a report is valid. A general disclosure form, like the portal without a robust triage systems behind it, is inefficient.
 
-You can get started with GRT2 by creating an account and using the Dreadnode Crucible interface. However, to get the most out of GRT2, we recommend that you spin up a Python environment of your choice such as a local Jupyter Notebook, Kaggle, or Google Colab. Make sure to export the API key from your Crucible account for use in your notebook. 
+## Objective
 
-# Judging and Rubric
-
-Judging for GRT2 will run from Friday at 10:30 AM PST until Saturday at midnight. Judges will be assessing bug reports for significance and importance. For GRT2, we are interested in “flaws”, which we deem to be behaviors absent or violating in opposition with the Model Card specs. We are asking participants to take a holistic view of safety and security, combining security culture and standards with novel  reports of flaws. For these more unique issues, our adjudication process allows for a conversation with our experts in the event of a disagreement.
-
-# Payouts
-
-**Jailbreaks will only be paid out for systemic substantial findings and not individual prompts (the $500 level). They are out of scope for the $50 level.**
-
-## Low Tier
-
-Payouts for **low** findings at the time of this writing are set to **$50.** This amount is subject to change.
-
-## High Tier
-
-Payouts for **high** findings at the time of this writing are set to **$500.** This amount is subject to change.
-
-Submissions in this category will typically arise, from at a minimum, hundreds samples and require a substantial argument. This needs to be generated via an API submission rather than using the GRT user interface. 
-
-
-
+What I built is a completely in-browser evaluation framework with a WASM pipeline or UK AISI's inspect. It's got some tricks to make it easy to manage adding data to evaluations. It is very cool, but is fairly network heavy. We'll add some polish and run the GRT3 in September.
