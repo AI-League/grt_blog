@@ -4,9 +4,7 @@ layout: home
 
 # GRT 3
 
-Unfortunately AI Village did not make it to run GRT3 this year at DEFCON. We do not have sufficient networking to run this event at DEFCON. 
-
-We will run it online in about a month with partners. Please signup [here](https://auth.aivillage.org/login) to recieve an email with more information.
+The GRT 3 will run online in about a month with partners. Please signup [here](https://auth.aivillage.org/login) to recieve an email with more information. 
 
 ## Philosophy
 
